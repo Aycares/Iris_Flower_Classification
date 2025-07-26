@@ -44,7 +44,7 @@ F1 Score- 1.00
 
 Precision- 1.00
 
-Recall- 1,00
+Recall- 1.00
 
 This shows a balanced model between train and test. This implies the model does not overfit.
 
