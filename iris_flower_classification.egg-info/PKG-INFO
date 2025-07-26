@@ -8,4 +8,4 @@ Requires-Dist: fastapi[all]>=0.116.1
 Requires-Dist: logfire[fastapi]>=4.0.0
 Requires-Dist: pandas>=2.3.1
 Requires-Dist: scikit-learn>=1.7.1
-Requires-Dist: zenml[server]>=0.84.0
+Requires-Dist: zenml[server]==0.84.0
