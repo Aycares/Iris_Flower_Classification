@@ -11,7 +11,7 @@ def train_model(X_train: pd.DataFrame, y_train: pd.Series) -> RandomForestClassi
     ZenML step to train a Random Forest Classifier.
     """
     try:
-        model = RandomForestClassifier(random_state=42)
+        model = RandomForestClassifier(random_state=23,max_depth=5,n_estimators=100)
         model.fit(X_train, y_train)
         logger.info("Random Forest training completed.")
         return model
