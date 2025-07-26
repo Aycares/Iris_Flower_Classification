@@ -5,7 +5,7 @@ from steps.data_training import train_model
 from steps.predict_model import predict_model
 from steps.evaluate_model import evaluate_model
 
-@pipeline
+@pipeline(name="iris_pipeline")
 def training_pipeline(file_path: str, target_col: str):
     # Step 1: Load data
     df = load_data(file_path=file_path)
