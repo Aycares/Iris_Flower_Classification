@@ -1,0 +1,5 @@
+fastapi[all]>=0.116.1
+logfire[fastapi]>=4.0.0
+pandas>=2.3.1
+scikit-learn>=1.7.1
+zenml[server]>=0.84.0

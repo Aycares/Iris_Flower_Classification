@@ -1,8 +1,9 @@
-from pipeline.training_pipeline import run_training_pipeline
+from sklearn.ensemble import RandomForestClassifier
+from pipeline import run_training_pipeline
 
 if __name__ == "__main__":
     # Define your CSV file path and target column
-    data_path = "data/Iris.csv"
+    data_path = (r'.\Iris.csv')  # or "Iris.csv" if it's in the same folder
     target_col = "Species"
 
     # Run the ZenML pipeline
@@ -10,3 +11,4 @@ if __name__ == "__main__":
         file_path=data_path,
         target_col=target_col
     )
+
